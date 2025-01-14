@@ -17,11 +17,15 @@ int main(void)
 		long long x = 2100000000; 
 		printf("값 : %lld,\n", x);
 	
-		printf("%10d\n", 42);// 10
+		printf("%10d\n", 42);
 		printf("%5d\n", 12345);
 		printf("%5d\n", 123456);
-		printf("%-10d", 123456);
+		printf("%-10d", 123456);//왼쪽정렬
 		printf("%d\n", 1);
-		printf("%010d", 123456);
+		printf("%010d\n", 123456);
+
+		printf("%8.2f\n", 3.14159);//8 :칸 개수
+		printf("%8.3f\n", 3.14159);//2 : 소숫점 자리수
+		printf("%8.4f\n", 3.14159);//4 : 소숫점 자리수
 		return 0;
 	}	
