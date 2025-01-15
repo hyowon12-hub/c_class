@@ -24,7 +24,7 @@ int main(void)
 	float funm;
 	printf("실	수 입력 : "); 
 	scanf_s("%f", &funm);
-	printf("입력된 값 : %.2f", funm);
+	printf("입력된 값 : %.2f", funm)
 
 	float scanf_pi;
 	printf("원주율 입력 : ");

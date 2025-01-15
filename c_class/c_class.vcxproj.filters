@@ -13,14 +13,8 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="소스 파일\day 1">
-      <UniqueIdentifier>{703fd833-9b88-4919-a647-42cc1a0f5162}</UniqueIdentifier>
-    </Filter>
     <Filter Include="소스 파일\day2">
       <UniqueIdentifier>{1b951184-548d-41d4-801c-35e3fab85b14}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\day 3">
-      <UniqueIdentifier>{8ae4d9b3-d9bf-4a4e-8b17-770740521def}</UniqueIdentifier>
     </Filter>
     <Filter Include="소스 파일\day4">
       <UniqueIdentifier>{00b96793-545b-4417-9f0d-a6dcf5db542d}</UniqueIdentifier>
@@ -28,10 +22,19 @@
     <Filter Include="소스 파일\day5">
       <UniqueIdentifier>{636d6fb6-e0a9-4d3b-ac59-6aca62abd09a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day6">
+      <UniqueIdentifier>{0e8792cb-bf44-45d5-ac72-12f4d008c90c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\day3">
+      <UniqueIdentifier>{8ae4d9b3-d9bf-4a4e-8b17-770740521def}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\day1">
+      <UniqueIdentifier>{703fd833-9b88-4919-a647-42cc1a0f5162}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
-      <Filter>소스 파일\day 1</Filter>
+      <Filter>소스 파일\day1</Filter>
     </ClCompile>
     <ClCompile Include="기본구조.c">
       <Filter>소스 파일\day2</Filter>
@@ -46,13 +49,13 @@
       <Filter>소스 파일\day2</Filter>
     </ClCompile>
     <ClCompile Include="자료형.c">
-      <Filter>소스 파일\day 3</Filter>
+      <Filter>소스 파일\day3</Filter>
     </ClCompile>
     <ClCompile Include="아스키코드.c">
-      <Filter>소스 파일\day 3</Filter>
+      <Filter>소스 파일\day3</Filter>
     </ClCompile>
     <ClCompile Include="상수.c">
-      <Filter>소스 파일\day 3</Filter>
+      <Filter>소스 파일\day3</Filter>
     </ClCompile>
     <ClCompile Include="자료형의 변환.c">
       <Filter>소스 파일\day4</Filter>
@@ -77,6 +80,21 @@
     </ClCompile>
     <ClCompile Include="증감연산자.c">
       <Filter>소스 파일\day5</Filter>
+    </ClCompile>
+    <ClCompile Include="연산자우선순위.c">
+      <Filter>소스 파일\day6</Filter>
+    </ClCompile>
+    <ClCompile Include="짱구의기말고사.c">
+      <Filter>소스 파일\day6</Filter>
+    </ClCompile>
+    <ClCompile Include="논리연산자.c">
+      <Filter>소스 파일\day6</Filter>
+    </ClCompile>
+    <ClCompile Include="삼항조건연산자.c">
+      <Filter>소스 파일\day6</Filter>
+    </ClCompile>
+    <ClCompile Include="비트단위논리연산자.c">
+      <Filter>소스 파일\day6</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
