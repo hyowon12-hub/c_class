@@ -34,6 +34,9 @@
     <Filter Include="소스 파일\day7">
       <UniqueIdentifier>{9ba5f133-4872-4843-9729-ee847257cb7d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day8">
+      <UniqueIdentifier>{36ea8a7c-30dc-4335-a5c7-bfaa71bf38d1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -113,6 +116,18 @@
     </ClCompile>
     <ClCompile Include="중첩if문.c">
       <Filter>소스 파일\day7</Filter>
+    </ClCompile>
+    <ClCompile Include="배송비중첩if문.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="switch문.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="switch계산기.c">
+      <Filter>소스 파일\day8</Filter>
+    </ClCompile>
+    <ClCompile Include="반복문 while].c">
+      <Filter>소스 파일\day8</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -11,7 +11,7 @@ int main(void)
 	int num1 = 250108, num1check;
 	int password = 112233, passwordcheck;
 	printf("학번을 입력해주세요 : ");
-	scanf_s("%d", &passwordcheck);
+	scanf_s("%d", &num1check);
 
 	printf("비밀번호를 입력해주세요 : ")
 		scanf_s("%d", &passwordcheck);
