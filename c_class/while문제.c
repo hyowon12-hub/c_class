@@ -6,7 +6,7 @@ int main(void)
 	int  a;
 	printf("숫자를 입력해주세요 : \n");
 	scanf_s("%d", &a);
-	while (a ! = 0) {
+	while (a! = 0) {
 			printf("입력한 숫자는 %d입니다 다시입력해주세요(0 입력시 종료)");
 			scanf_s("%d", &a);
 		}
