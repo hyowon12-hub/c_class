@@ -46,6 +46,9 @@
     <Filter Include="소스 파일\day11">
       <UniqueIdentifier>{a6157b5b-02cc-4f6a-877f-1b3f150a96c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day12">
+      <UniqueIdentifier>{8a9f7305-5ccb-48a8-a01a-36b0f3241249}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -182,6 +185,18 @@
     </ClCompile>
     <ClCompile Include="포인터와 배열 문제.c">
       <Filter>소스 파일\day11</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터 배열.c">
+      <Filter>소스 파일\day12</Filter>
+    </ClCompile>
+    <ClCompile Include="이차원 배열.c">
+      <Filter>소스 파일\day12</Filter>
+    </ClCompile>
+    <ClCompile Include="이차원 배열 구구단.c">
+      <Filter>소스 파일\day12</Filter>
+    </ClCompile>
+    <ClCompile Include="배열포인터.c">
+      <Filter>소스 파일\day12</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
