@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\day12">
       <UniqueIdentifier>{8a9f7305-5ccb-48a8-a01a-36b0f3241249}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day13">
+      <UniqueIdentifier>{2203f512-f6c9-4c7e-8b69-fc893ae54070}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -197,6 +200,18 @@
     </ClCompile>
     <ClCompile Include="배열포인터.c">
       <Filter>소스 파일\day12</Filter>
+    </ClCompile>
+    <ClCompile Include="문자열과 포인터.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="함수.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="인사하는 프로그램.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="곱샘프로그램.c">
+      <Filter>소스 파일\day13</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
