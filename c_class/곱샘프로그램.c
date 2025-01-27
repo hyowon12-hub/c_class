@@ -1,5 +1,5 @@
 #include <stdio.h>
-int math(int a, int b)
+int multiply(int a, int b)
 {
 	return a * b;
 }
@@ -11,10 +11,18 @@ int main(void)
 	숫자 2가지 입력
 	연산결과 0 X 0 =00
 	*/
-	int i, j;
-	printf("숫자 입력 : ");
-	scanf_s("%d %d", i, j);
-	printf("연산결과 %d * %d = %d입니다");
+	int num1, num2;
+	printf("첫번째 숫자 입력 : ");
+	scanf_s("%d", &num1);
+	printf("두번째 숫자 입력 : ");
+	scanf_s("%d", &num2);
+
+	int result = multiply(num1, num2);
+	printf("연산결과 : %d X %d = %d", num1, num2, result);
+	
+	/*
+	두 가격중 더 
+	*/
 
 	return 0;
 }

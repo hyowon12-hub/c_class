@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\day13">
       <UniqueIdentifier>{2203f512-f6c9-4c7e-8b69-fc893ae54070}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\day14">
+      <UniqueIdentifier>{49b6a04b-55be-4969-97c0-7d61e65b7fe9}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="hello.c">
@@ -212,6 +215,21 @@
     </ClCompile>
     <ClCompile Include="곱샘프로그램.c">
       <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="가격 비교.c">
+      <Filter>소스 파일\day13</Filter>
+    </ClCompile>
+    <ClCompile Include="지역변수, 전역변수.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터,함수의 관계.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="이중포인터.c">
+      <Filter>소스 파일\day14</Filter>
+    </ClCompile>
+    <ClCompile Include="포인터 실전문제.c">
+      <Filter>소스 파일\day14</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
