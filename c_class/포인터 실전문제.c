@@ -3,6 +3,6 @@ int main(void)
 {
 	int n = 4;
 	int* pt = NULL;
-	pt 
+	pt;
 	return 0;
 }
